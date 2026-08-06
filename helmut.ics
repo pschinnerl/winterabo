@@ -33,8 +33,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20261001T160000
 DTEND;TZID=Europe/Berlin:20261001T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Hartmut\, Dieter\, Henning\n\nHTV Helmstedt – W
  interabo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -52,8 +51,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20261008T160000
 DTEND;TZID=Europe/Berlin:20261008T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Alfred\, Peter\, Ulli\n\nHTV Helmstedt – Winter
  abo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -71,8 +69,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20261029T160000
 DTEND;TZID=Europe/Berlin:20261029T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Rudi\, Ulli\, Dieter\n\nHTV Helmstedt – Wintera
  bo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -90,8 +87,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20261112T160000
 DTEND;TZID=Europe/Berlin:20261112T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Hartmut\, Peter\, Rudi\n\nHTV Helmstedt – Winte
  rabo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -109,8 +105,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20261203T160000
 DTEND;TZID=Europe/Berlin:20261203T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Alfred\, Rudi\, Henning\n\nHTV Helmstedt – Wint
  erabo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -128,8 +123,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20261210T160000
 DTEND;TZID=Europe/Berlin:20261210T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Alfred\, Hartmut\, Ulli\n\nHTV Helmstedt – Wint
  erabo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -147,8 +141,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20270114T160000
 DTEND;TZID=Europe/Berlin:20270114T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Alfred\, Peter\, Dieter\n\nHTV Helmstedt – Wint
  erabo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -166,8 +159,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20270121T160000
 DTEND;TZID=Europe/Berlin:20270121T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Hartmut\, Peter\, Henning\n\nHTV Helmstedt – Wi
  nterabo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -185,8 +177,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20270211T160000
 DTEND;TZID=Europe/Berlin:20270211T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Ulli\, Dieter\, Henning\n\nHTV Helmstedt – Wint
  erabo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -204,8 +195,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20270218T160000
 DTEND;TZID=Europe/Berlin:20270218T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Alfred\, Rudi\, Henning\n\nHTV Helmstedt – Wint
  erabo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -223,8 +213,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20270304T160000
 DTEND;TZID=Europe/Berlin:20270304T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Hartmut\, Rudi\, Ulli\n\nHTV Helmstedt – Winter
  abo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -242,8 +231,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20270318T160000
 DTEND;TZID=Europe/Berlin:20270318T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Peter\, Rudi\, Dieter\n\nHTV Helmstedt – Winter
  abo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -261,8 +249,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20270401T160000
 DTEND;TZID=Europe/Berlin:20270401T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Peter\, Ulli\, Henning\n\nHTV Helmstedt – Winte
  rabo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
@@ -280,8 +267,7 @@ SEQUENCE:0
 DTSTART;TZID=Europe/Berlin:20270415T160000
 DTEND;TZID=Europe/Berlin:20270415T173000
 SUMMARY:Tennis Winterabo – Platz 4
-LOCATION:Tennishalle HTV\, Platz 4\, Magdeburger Str. 16a\, 38350 Helmste
- dt
+LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Hartmut\, Dieter\, Henning\n\nHTV Helmstedt – W
  interabo 2026/2027\nPlatz 4\, 16:00–17:30 Uhr
 STATUS:CONFIRMED
