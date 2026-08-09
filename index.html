@@ -97,6 +97,17 @@
 
   <div id="list"></div>
 
+  <header style="margin-top:40px">
+    <p class="eyebrow">HTV Helmstedt · Herren 65/70</p>
+    <h1>Dienstags&shy;runde<br>2026/2027</h1>
+    <p class="facts">Plätze 2–4 · dienstags <strong>14:30–16:00 Uhr</strong> · 29. September 2026 bis 27. April 2027 · 31 Termine</p>
+  </header>
+
+  <h2>Deinen Kalender abonnieren</h2>
+  <p class="note">Der Platz wechselt von Woche zu Woche – er steht jeweils im Termin selbst. Wochen, in denen du pausierst, tauchen nicht im Kalender auf.</p>
+
+  <div id="list-di"></div>
+
   <div class="help">
     <h2>Falls das Abo nicht startet</h2>
     <ol>
@@ -107,28 +118,39 @@
     <p class="note">Nicht über WhatsApp weiterleiten – dort öffnet die Datei nur in der Vorschau. Diesen Seiten-Link darfst du natürlich teilen.</p>
   </div>
 
-  <footer>Helmstedter Tennis-Verein e.V. · Donnerstagsrunde<br>Fragen zur Aufstellung bitte an Peter</footer>
+  <footer>Helmstedter Tennis-Verein e.V.<br>Fragen zur Aufstellung bitte an Peter</footer>
 </div>
 
 <script>
-  var spieler = [
-    ["Alfred",14],["Dieter",14],["Hartmut",15],["Helmut",14],
-    ["Henning",15],["Peter",14],["Rudi",15],["Ulli",15]
-  ];
   var base = location.href.replace(/index\.html$/, "").replace(/[^\/]*$/, "");
   var httpBase = base;
   var webcalBase = base.replace(/^https?:/, "webcal:");
-  var html = "";
-  spieler.forEach(function(s){
-    var datei = s[0].toLowerCase() + ".ics";
-    html += '<div class="card">' +
-      '<div class="name">' + s[0] + '<span class="count">' + s[1] + ' Spieltage</span></div>' +
-      '<div class="actions">' +
-        '<a class="btn sub" href="' + webcalBase + datei + '">Abonnieren</a>' +
-        '<a class="btn dl" href="' + httpBase + datei + '" download>Datei laden</a>' +
-      '</div></div>';
-  });
-  document.getElementById("list").innerHTML = html;
+
+  function renderList(targetId, spieler, subfolder){
+    var html = "";
+    spieler.forEach(function(s){
+      var datei = subfolder + s[0].toLowerCase() + ".ics";
+      html += '<div class="card">' +
+        '<div class="name">' + s[0] + '<span class="count">' + s[1] + ' Spieltage</span></div>' +
+        '<div class="actions">' +
+          '<a class="btn sub" href="' + webcalBase + datei + '">Abonnieren</a>' +
+          '<a class="btn dl" href="' + httpBase + datei + '" download>Datei laden</a>' +
+        '</div></div>';
+    });
+    document.getElementById(targetId).innerHTML = html;
+  }
+
+  renderList("list", [
+    ["Alfred",14],["Dieter",14],["Hartmut",15],["Helmut",14],
+    ["Henning",15],["Peter",14],["Rudi",15],["Ulli",15]
+  ], "");
+
+  renderList("list-di", [
+    ["Manfred",29],["Henning",25],["Lutz",27],["Dietmar",19],
+    ["Gerald",30],["JeanL",29],["Uwe",28],["Ulli",21],
+    ["Hartmut",22],["Helmut",20],["Klaus",16],["Alfred",18],
+    ["Peter",16],["Wolfgang",13],["Ralf",12],["Gerd",24],["Wilnis",23]
+  ], "dienstag/");
 </script>
 </body>
 </html>
