@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Dienstagsrunde Peter
 NAME:Dienstagsrunde Peter
-X-WR-CALDESC:Tennis Dienstagsrunde Herren 65/70 2026/2027
+X-WR-CALDESC:Tennis Dienstagsrunde Herren 65/70 2026/2027 - Platz 4
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
@@ -27,291 +27,345 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:94ceacad14e53fc4f921dde5e93f721d@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:7adddfb5bbf897a9695817fc9c29c9ca@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20261006T143000
-DTEND;TZID=Europe/Berlin:20261006T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Klaus\, Alfred\, Ralf\n\nHTV Helmstedt – Dienst
- agsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20260929T153000
+DTEND;TZID=Europe/Berlin:20260929T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Alfred\, Ralf\, Hartmut\nPause: Helmut\, Henning\
+ , Ulli\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:03b9eb57052262b2358ab120cebd9c18@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:44fdce5913f0be5d0bbddbbc894a0634@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20261020T143000
-DTEND;TZID=Europe/Berlin:20261020T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Henning\, Helmut\, Wolfgang\n\nHTV Helmstedt – 
- Dienstagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20261013T153000
+DTEND;TZID=Europe/Berlin:20261013T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Alfred\, Helmut\, Ulli\nPause: Ralf\nUrlaub: Hart
+ mut\, Henning\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027
+ \nPlatz 4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:72518a0e51500d010f458c16ae2671a2@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:19e6a0b2d464926bc351d6f184451679@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20261027T143000
-DTEND;TZID=Europe/Berlin:20261027T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Ulli\, Klaus\, Alfred\n\nHTV Helmstedt – Dienst
- agsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20261020T153000
+DTEND;TZID=Europe/Berlin:20261020T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Henning\, Ulli\, Ralf\nPause: Alfred\, Helmut\nUr
+ laub: Hartmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027
+ \nPlatz 4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:5c09c381d41bcc90f9f196c726552e4f@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:88552e4274539153e56d932dd5ac0653@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20261110T143000
-DTEND;TZID=Europe/Berlin:20261110T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Henning\, Klaus\, Alfred\n\nHTV Helmstedt – Die
- nstagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20261110T153000
+DTEND;TZID=Europe/Berlin:20261110T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Henning\, Ulli\, Ralf\nPause: Alfred\, Helmut\, H
+ artmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2fa9f373b6fbffb63e341d8e94812d57@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:8ec1d95d5175ce9c74449a0c5bf91337@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20261201T143000
-DTEND;TZID=Europe/Berlin:20261201T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Ulli\, Helmut\, Wolfgang\n\nHTV Helmstedt – Die
- nstagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20261124T153000
+DTEND;TZID=Europe/Berlin:20261124T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Helmut\, Henning\, Ralf\nPause: Alfred\, Ulli\, H
+ artmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7ad36e295575cdc1ca07100096ba2f85@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:79b407a33680ad77eb5267c301caafb3@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20261208T143000
-DTEND;TZID=Europe/Berlin:20261208T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Gerd\, Klaus\, Wolfgang\n\nHTV Helmstedt – Dien
- stagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20261201T153000
+DTEND;TZID=Europe/Berlin:20261201T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Alfred\, Henning\, Hartmut\nPause: Helmut\, Ulli\
+ , Ralf\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eb990d219f1733494e7cdab39b858130@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:ee47df4a4db794121639ecc501f4f98b@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20261229T143000
-DTEND;TZID=Europe/Berlin:20261229T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Henning\, Helmut\, Alfred\n\nHTV Helmstedt – Di
- enstagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20261215T153000
+DTEND;TZID=Europe/Berlin:20261215T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Alfred\, Henning\, Ulli\nPause: Helmut\, Hartmut\
+ nUrlaub: Ralf\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027
+ \nPlatz 4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7994ba16ac63aee3936096c6e3b696c8@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:d5fb918f7c689622206c694067bfda53@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20270112T143000
-DTEND;TZID=Europe/Berlin:20270112T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Hartmut\, Helmut\, Klaus\n\nHTV Helmstedt – Die
- nstagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20261222T153000
+DTEND;TZID=Europe/Berlin:20261222T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Alfred\, Helmut\, Ralf\nPause: Henning\, Ulli\, H
+ artmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:41f5f97860c6cb731128ec0a0e7e249e@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:67ae65fab1d3ae866fc64b37b0f6aecf@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20270126T143000
-DTEND;TZID=Europe/Berlin:20270126T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Dietmar\, Alfred\, Wolfgang\n\nHTV Helmstedt – 
- Dienstagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20270105T153000
+DTEND;TZID=Europe/Berlin:20270105T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Alfred\, Henning\, Ralf\nPause: Helmut\, Ulli\, H
+ artmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2af2142e8aa7034fc952ecd87be163a7@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:b829654ec993aa88212497c063d27d3d@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20270209T143000
-DTEND;TZID=Europe/Berlin:20270209T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Ulli\, Klaus\, Ralf\n\nHTV Helmstedt – Dienstag
- srunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20270119T153000
+DTEND;TZID=Europe/Berlin:20270119T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Helmut\, Henning\, Hartmut\nPause: Alfred\, Ulli\
+ , Ralf\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:5e785a1da446382fcc047a6ed28e51ae@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:e92cd35a3bc18aed5d55103902627c7e@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20270216T143000
-DTEND;TZID=Europe/Berlin:20270216T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Gerd\, Helmut\, Alfred\n\nHTV Helmstedt – Diens
- tagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20270202T153000
+DTEND;TZID=Europe/Berlin:20270202T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Alfred\, Henning\, Ulli\nPause: Helmut\, Ralf\, H
+ artmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:5ff273830359df3c75c54b7dd5a60e67@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:3d9ba01bf29a06a708bad64d1a4be52d@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20270302T143000
-DTEND;TZID=Europe/Berlin:20270302T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Wilnis\, Helmut\, Ralf\n\nHTV Helmstedt – Diens
- tagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20270209T153000
+DTEND;TZID=Europe/Berlin:20270209T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Helmut\, Ulli\, Ralf\nPause: Alfred\, Henning\, H
+ artmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f3e97b043086a160575ee123b5462d82@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:e73ff218c7010c584b94df83c3ca0d16@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20270316T143000
-DTEND;TZID=Europe/Berlin:20270316T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Hartmut\, Helmut\, Alfred\n\nHTV Helmstedt – Di
- enstagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20270302T153000
+DTEND;TZID=Europe/Berlin:20270302T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Helmut\, Henning\, Hartmut\nPause: Alfred\, Ulli\
+ , Ralf\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:aa9156a826d14a64cbe30d7e7200d8a2@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:61e79d8f04caae5e890a164384b79ee3@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20270323T143000
-DTEND;TZID=Europe/Berlin:20270323T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Wilnis\, Klaus\, Wolfgang\n\nHTV Helmstedt – Di
- enstagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20270309T153000
+DTEND;TZID=Europe/Berlin:20270309T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Alfred\, Ralf\, Hartmut\nPause: Helmut\, Henning\
+ , Ulli\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:17b5b81082ac1d019a3a573f3ec9f160@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:6a992e14d42ef7c1a4f7789b65ef9c68@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20270413T143000
-DTEND;TZID=Europe/Berlin:20270413T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Hartmut\, Helmut\, Klaus\n\nHTV Helmstedt – Die
- nstagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20270316T153000
+DTEND;TZID=Europe/Berlin:20270316T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Helmut\, Ulli\, Ralf\nPause: Alfred\, Henning\, H
+ artmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a98e349c5093aa623b900eb076f5f825@htv-dienstagsrunde
-DTSTAMP:20260806T120000Z
+UID:0f7a567c788ceae9d5c60ce2b5573952@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
 SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20270420T143000
-DTEND;TZID=Europe/Berlin:20270420T160000
-SUMMARY:Tennis Dienstagsrunde – Platz 2
-LOCATION:Platz 2
-DESCRIPTION:Mitspieler: Henning\, Alfred\, Wolfgang\n\nHTV Helmstedt – 
- Dienstagsrunde Herren 65/70 2026/2027\nPlatz 2\, 14:30–16:00 Uhr
+DTSTART;TZID=Europe/Berlin:20270406T153000
+DTEND;TZID=Europe/Berlin:20270406T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Helmut\, Henning\, Ralf\nPause: Alfred\, Ulli\, H
+ artmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 2
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6ca1e3e305d4c5be48149705f22fccc3@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Berlin:20270413T153000
+DTEND;TZID=Europe/Berlin:20270413T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Alfred\, Henning\, Ulli\nPause: Helmut\, Ralf\, H
+ artmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3842996c3b27845d4c9d08599e4bcdbb@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Berlin:20270427T153000
+DTEND;TZID=Europe/Berlin:20270427T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Ulli\, Ralf\, Hartmut\nPause: Alfred\, Helmut\, H
+ enning\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlatz
+  4\, 15:30–17:00 Uhr
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
 END:VALARM
 END:VEVENT
 END:VCALENDAR
