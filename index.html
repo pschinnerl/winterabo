@@ -3,110 +3,58 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Winterabo 2026/2027 – Kalender abonnieren</title>
+<title>Dienstagsrunde 2026/2027 – Kalender abonnieren</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --court:#123f35;        /* Hallengrün */
-    --court-dark:#0c2c26;
-    --line:#f2f0e6;         /* Linienweiß */
-    --ball:#d9f04a;         /* Ballgelb */
-    --muted:#8faea4;
+    --court:#123f35;--court-dark:#0c2c26;--line:#f2f0e6;--ball:#d9f04a;--muted:#8faea4;
   }
   *{box-sizing:border-box}
-  body{
-    margin:0;background:var(--court-dark);color:var(--line);
-    font-family:Inter,system-ui,sans-serif;font-size:17px;line-height:1.55;
-    -webkit-text-size-adjust:100%;
-  }
+  body{margin:0;background:var(--court-dark);color:var(--line);font-family:Inter,system-ui,sans-serif;font-size:17px;line-height:1.55;-webkit-text-size-adjust:100%}
   .wrap{max-width:640px;margin:0 auto;padding:28px 20px 64px}
-
-  header{
-    border:2px solid var(--line);border-radius:2px;padding:22px 20px;
-    background:var(--court);position:relative;overflow:hidden;
-  }
-  header::after{ /* Aufschlaglinie */
-    content:"";position:absolute;left:0;right:0;bottom:34px;height:2px;
-    background:rgba(242,240,230,.35);
-  }
-  .eyebrow{
-    font-family:"Barlow Condensed",sans-serif;font-weight:500;letter-spacing:.18em;
-    text-transform:uppercase;font-size:15px;color:var(--ball);margin:0 0 6px;
-  }
-  h1{
-    font-family:"Barlow Condensed",sans-serif;font-weight:700;text-transform:uppercase;
-    font-size:clamp(34px,9vw,52px);line-height:.95;margin:0 0 10px;letter-spacing:.01em;
-  }
+  header{border:2px solid var(--line);border-radius:2px;padding:22px 20px;background:var(--court);position:relative;overflow:hidden}
+  header::after{content:"";position:absolute;left:0;right:0;bottom:34px;height:2px;background:rgba(242,240,230,.35)}
+  .eyebrow{font-family:"Barlow Condensed",sans-serif;font-weight:500;letter-spacing:.18em;text-transform:uppercase;font-size:15px;color:var(--ball);margin:0 0 6px}
+  h1{font-family:"Barlow Condensed",sans-serif;font-weight:700;text-transform:uppercase;font-size:clamp(34px,9vw,52px);line-height:.95;margin:0 0 10px;letter-spacing:.01em}
   .facts{margin:0;font-size:16px;color:var(--line);opacity:.9}
   .facts strong{color:var(--ball);font-weight:600}
-
-  h2{
-    font-family:"Barlow Condensed",sans-serif;font-weight:700;text-transform:uppercase;
-    letter-spacing:.1em;font-size:20px;margin:36px 0 12px;color:var(--line);
-  }
-
-  .card{
-    border:1px solid rgba(242,240,230,.28);border-radius:2px;background:var(--court);
-    padding:16px 18px;margin-bottom:12px;
-    display:flex;align-items:center;gap:14px;flex-wrap:wrap;
-  }
-  .name{
-    font-family:"Barlow Condensed",sans-serif;font-weight:700;text-transform:uppercase;
-    font-size:30px;line-height:1;flex:1 1 auto;letter-spacing:.02em;
-  }
-  .count{font-size:14px;color:var(--muted);display:block;
-    font-family:Inter,sans-serif;font-weight:400;text-transform:none;letter-spacing:0;margin-top:3px}
+  h2{font-family:"Barlow Condensed",sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:20px;margin:36px 0 12px;color:var(--line)}
+  .card{border:1px solid rgba(242,240,230,.28);border-radius:2px;background:var(--court);padding:16px 18px;margin-bottom:12px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .name{font-family:"Barlow Condensed",sans-serif;font-weight:700;text-transform:uppercase;font-size:30px;line-height:1;flex:1 1 auto;letter-spacing:.02em}
+  .count{font-size:14px;color:var(--muted);display:block;font-family:Inter,sans-serif;font-weight:400;text-transform:none;letter-spacing:0;margin-top:3px}
   .actions{display:flex;gap:10px;flex:0 0 auto}
-  a.btn{
-    display:inline-flex;align-items:center;justify-content:center;
-    min-height:52px;padding:0 20px;border-radius:2px;text-decoration:none;
-    font-weight:600;font-size:16px;transition:transform .12s ease,background .12s ease;
-  }
+  a.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 20px;border-radius:2px;text-decoration:none;font-weight:600;font-size:16px;transition:transform .12s ease,background .12s ease}
   a.sub{background:var(--ball);color:var(--court-dark)}
   a.dl{background:transparent;color:var(--line);border:1px solid rgba(242,240,230,.5)}
   a.btn:hover{transform:translateY(-1px)}
   a.sub:hover{background:#e6ff63}
   a.dl:hover{background:rgba(242,240,230,.1)}
   a.btn:focus-visible{outline:3px solid var(--ball);outline-offset:3px}
-
   .help{border-top:2px solid rgba(242,240,230,.28);margin-top:40px;padding-top:8px}
   ol{padding-left:22px;margin:8px 0 22px}
   li{margin-bottom:8px}
   .note{font-size:15px;color:var(--muted)}
   footer{margin-top:40px;font-size:14px;color:var(--muted)}
+  footer a{color:var(--ball);text-decoration:none}
   @media (prefers-reduced-motion:reduce){a.btn{transition:none}}
-  @media (max-width:430px){
-    .actions{flex:1 1 100%}
-    a.btn{flex:1}
-  }
+  @media (max-width:430px){.actions{flex:1 1 100%}a.btn{flex:1}}
 </style>
 </head>
 <body>
 <div class="wrap">
 
   <header>
-    <p class="eyebrow">HTV Helmstedt · Donnerstagsrunde</p>
-    <h1>Winterabo<br>2026/2027</h1>
-    <p class="facts"><strong>Platz 4</strong> · donnerstags <strong>16:00–17:30 Uhr</strong> · 1. Oktober 2026 bis 29. April 2027 · 29 Termine</p>
-  </header>
-
-  <h2>Deinen Kalender abonnieren</h2>
-  <p class="note">Tippe auf deinen Namen. Alle deine Spieltage landen im Kalender – mit den Mitspielern in der Notiz und einer Erinnerung am Vortag. Ändert sich die Aufstellung, aktualisiert sich dein Kalender von selbst.</p>
-
-  <div id="list"></div>
-
-  <header style="margin-top:40px">
     <p class="eyebrow">HTV Helmstedt · Herren 65/70</p>
     <h1>Dienstags&shy;runde<br>2026/2027</h1>
-    <p class="facts">Plätze 2–4 · dienstags <strong>14:30–16:00 Uhr</strong> · 29. September 2026 bis 27. April 2027 · 31 Termine</p>
+    <p class="facts"><strong>Platz 4</strong> · dienstags <strong>15:30–17:00 Uhr</strong> · 29. September 2026 bis 27. April 2027 · 31 Termine</p>
   </header>
 
   <h2>Deinen Kalender abonnieren</h2>
-  <p class="note">Der Platz wechselt von Woche zu Woche – er steht jeweils im Termin selbst. Wochen, in denen du pausierst, tauchen nicht im Kalender auf.</p>
+  <p class="note">Tippe auf deinen Namen. Alle deine Spieltage landen im Kalender – mit den Mitspielern, den Pausierenden und den Urlauben des Tages in der Notiz und einer Erinnerung am Vortag. Wochen, in denen du pausierst oder im Urlaub bist, tauchen gar nicht auf.</p>
 
-  <div id="list-di"></div>
+  <div id="list"></div>
 
   <div class="help">
     <h2>Falls das Abo nicht startet</h2>
@@ -118,39 +66,28 @@
     <p class="note">Nicht über WhatsApp weiterleiten – dort öffnet die Datei nur in der Vorschau. Diesen Seiten-Link darfst du natürlich teilen.</p>
   </div>
 
-  <footer>Helmstedter Tennis-Verein e.V.<br>Fragen zur Aufstellung bitte an Peter</footer>
+  <footer>Helmstedter Tennis-Verein e.V. · Dienstagsrunde<br>Fragen zur Aufstellung bitte an Peter<br><a href="../">Alle Kalender</a></footer>
 </div>
 
 <script>
   var base = location.href.replace(/index\.html$/, "").replace(/[^\/]*$/, "");
   var httpBase = base;
   var webcalBase = base.replace(/^https?:/, "webcal:");
-
-  function renderList(targetId, spieler, subfolder){
-    var html = "";
-    spieler.forEach(function(s){
-      var datei = subfolder + s[0].toLowerCase() + ".ics";
-      html += '<div class="card">' +
-        '<div class="name">' + s[0] + '<span class="count">' + s[1] + ' Spieltage</span></div>' +
-        '<div class="actions">' +
-          '<a class="btn sub" href="' + webcalBase + datei + '">Abonnieren</a>' +
-          '<a class="btn dl" href="' + httpBase + datei + '" download>Datei laden</a>' +
-        '</div></div>';
-    });
-    document.getElementById(targetId).innerHTML = html;
-  }
-
-  renderList("list", [
-    ["Alfred",14],["Dieter",14],["Hartmut",15],["Helmut",14],
-    ["Henning",15],["Peter",14],["Rudi",15],["Ulli",15]
-  ], "");
-
-  renderList("list-di", [
-    ["Manfred",29],["Henning",25],["Lutz",27],["Dietmar",19],
-    ["Gerald",30],["JeanL",29],["Uwe",28],["Ulli",21],
-    ["Hartmut",22],["Helmut",20],["Klaus",16],["Alfred",18],
-    ["Peter",16],["Wolfgang",13],["Ralf",12],["Gerd",24],["Wilnis",23]
-  ], "dienstag/");
+  var spieler = [
+    ["Alfred",17],["Hartmut",18],["Helmut",17],["Henning",18],
+    ["Peter",18],["Ralf",18],["Ulli",18]
+  ];
+  var html = "";
+  spieler.forEach(function(s){
+    var datei = s[0].toLowerCase() + ".ics";
+    html += '<div class="card">' +
+      '<div class="name">' + s[0] + '<span class="count">' + s[1] + ' Spieltage</span></div>' +
+      '<div class="actions">' +
+        '<a class="btn sub" href="' + webcalBase + datei + '">Abonnieren</a>' +
+        '<a class="btn dl" href="' + httpBase + datei + '" download>Datei laden</a>' +
+      '</div></div>';
+  });
+  document.getElementById("list").innerHTML = html;
 </script>
 </body>
 </html>
