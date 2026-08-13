@@ -53,9 +53,28 @@ DTSTART;TZID=Europe/Berlin:20261006T153000
 DTEND;TZID=Europe/Berlin:20261006T170000
 SUMMARY:Tennis Dienstagsrunde – Platz 4
 LOCATION:Platz 4
-DESCRIPTION:Mitspieler: Helmut\, Ulli\, Hartmut\nPause: Alfred\nUrlaub: H
- enning\, Peter\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/202
- 7\nPlatz 4\, 15:30–17:00 Uhr
+DESCRIPTION:Mitspieler: Alfred\, Helmut\, Hartmut\nUrlaub: Henning\, Ulli
+ \, Peter\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPla
+ tz 4\, 15:30–17:00 Uhr
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:468f965f35a02340b7676ab1c4505713@htv-dienstagsrunde
+DTSTAMP:20260812T120000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Berlin:20261013T153000
+DTEND;TZID=Europe/Berlin:20261013T170000
+SUMMARY:Tennis Dienstagsrunde – Platz 4
+LOCATION:Platz 4
+DESCRIPTION:Mitspieler: Alfred\, Helmut\, Peter\nUrlaub: Henning\, Ulli\,
+  Hartmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPla
+ tz 4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -92,25 +111,6 @@ DTEND;TZID=Europe/Berlin:20261110T170000
 SUMMARY:Tennis Dienstagsrunde – Platz 4
 LOCATION:Platz 4
 DESCRIPTION:Mitspieler: Henning\, Ulli\, Peter\nPause: Alfred\, Helmut\, 
- Hartmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlat
- z 4\, 15:30–17:00 Uhr
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Morgen Tennis Dienstagsrunde – Platz 4
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f58205ef35babb2ad9757c3a7c7cf539@htv-dienstagsrunde
-DTSTAMP:20260812T120000Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Berlin:20261124T153000
-DTEND;TZID=Europe/Berlin:20261124T170000
-SUMMARY:Tennis Dienstagsrunde – Platz 4
-LOCATION:Platz 4
-DESCRIPTION:Mitspieler: Helmut\, Henning\, Peter\nPause: Alfred\, Ulli\, 
  Hartmut\n\nHTV Helmstedt – Dienstagsrunde Herren 65/70 2026/2027\nPlat
  z 4\, 15:30–17:00 Uhr
 STATUS:CONFIRMED
